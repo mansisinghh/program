@@ -1,6 +1,6 @@
 #include<stdio.h>
 #inlcude<conio.h>
-main()
+void main()
 {
   float b,h,area;
   clrscr();
