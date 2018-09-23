@@ -1,0 +1,12 @@
+#include<stdio.h>
+#inlcude<conio.h>
+main()
+{
+  float b,h,area;
+  clrscr();
+    printf("enter the base and height of triangle\n");
+    scanf("%f%f",&b,&h);
+    area=1/2(b*h);
+    printf("the area is=%f\n",area);
+    getch;
+    }
