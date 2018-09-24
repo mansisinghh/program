@@ -1,0 +1,18 @@
+#include<stdio.h>
+#include<conio.h>
+struct area
+{
+float b;
+float h;
+float area;
+}a;
+int main()
+{
+float pi=3.14;
+clrscr();
+printf("enter the base and height \n");
+scanf(%f%f",&a.b,&a.h);
+a.area=(0.5)*a.b*a.h;
+printf("the area is %f",a.area);
+getch();
+}
