@@ -8,7 +8,6 @@ float area;
 }a;
 int main()
 {
-float pi=3.14;
 clrscr();
 printf("enter the base and height \n");
 scanf(%f%f",&a.b,&a.h);
