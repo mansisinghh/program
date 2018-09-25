@@ -1,0 +1,23 @@
+#include<stdio.h>
+#include<cnio.h>
+int sum ( int a[], int n);
+int main()
+{
+int s,n,a[100],i;
+clrscr();
+printf("Enter the number of elements \n");
+scanf("%d",&n);
+printf("Enter the elements \n");
+for(i=0;i<n;i++)
+scanf("%d",a[i]);
+s=sum(a,n);
+printf("the sum of elements is %d",s);
+return 0;
+}
+int sum( int a[], int n)
+{
+int sum=0;
+for(i=0;i<n;i++)
+sum=sum+i;
+return sum;
+}
